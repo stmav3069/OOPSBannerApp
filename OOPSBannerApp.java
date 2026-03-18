@@ -2,37 +2,37 @@ public class OOPSBannerApp {
 
     public static String[] getOPattern() {
         return new String[]{
-            String.join(" ", " *** "),
-            String.join(" ", "*   *"),
-            String.join(" ", "*   *"),
-            String.join(" ", "*   *"),
-            String.join(" ", "*   *"),
-            String.join(" ", "*   *"),
-            String.join(" ", " *** ")
+            " *** ",
+            "*   *",
+            "*   *",
+            "*   *",
+            "*   *",
+            "*   *",
+            " *** "
         };
     }
 
     public static String[] getPPattern() {
         return new String[]{
-            String.join(" ", "*****"),
-            String.join(" ", "*   *"),
-            String.join(" ", "*   *"),
-            String.join(" ", "*****"),
-            String.join(" ", "*    "),
-            String.join(" ", "*    "),
-            String.join(" ", "*    ")
+            "*****",
+            "*   *",
+            "*   *",
+            "*****",
+            "*    ",
+            "*    ",
+            "*    "
         };
     }
 
     public static String[] getSPattern() {
         return new String[]{
-            String.join(" ", " ****"),
-            String.join(" ", "*    "),
-            String.join(" ", "*    "),
-            String.join(" ", " *** "),
-            String.join(" ", "    *"),
-            String.join(" ", "    *"),
-            String.join(" ", "**** ")
+            " ****",
+            "*    ",
+            "*    ",
+            " *** ",
+            "    *",
+            "    *",
+            "**** "
         };
     }
 
@@ -46,7 +46,6 @@ public class OOPSBannerApp {
             System.out.println(
                 oPattern[i] + "   " +
                 oPattern[i] + "   " +
-                pPattern[i] + "   " +
                 pPattern[i] + "   " +
                 sPattern[i]
             );
